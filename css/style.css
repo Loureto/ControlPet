@@ -1,0 +1,512 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*---START CLASS AUXILIARES---*/
+body{	
+	background-color: rgb(241,247,249);
+	box-sizing: border-box;
+}
+
+/*---START HEADER---*/
+.superior{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	background-color: rgb(241,247,249);
+}
+
+.header{
+	width: 100%;
+	height: 27px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+}
+
+.paw-icon{
+	width: 100%;
+	height: 27px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+
+}
+
+.paw-icon i{
+	font-size: 16px;
+	color: black;
+	margin-right: 3px;	
+}
+
+.paw-icon h6{
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+.paw-icon small{
+	color: rgb(118,118,118);
+}
+/*---END - HEADER---*/
+
+/*---START - FILLED---*/
+.filled{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	display: block;
+}
+
+.header_register{
+	width: 100%;
+	height: 36px;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.div_register{
+	width: 570px;
+	height: 36px;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn_register{
+	width: 185.45px;
+	height: 36px;
+	color: rgb(118,118,118);
+	font-size: 16px;
+	font-weight: normal;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: rgb(255,255,255);
+	transition: .1s;
+}
+
+.btn_register i{
+	margin-right: 3px;
+}
+/*---END - FILLED---*/
+
+/*---START - PICTURE---*/
+.picture{
+	width: 100%;
+	height: 180px;
+	margin-top: 24px;
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.picture_image{
+	width: 180px;
+	height: 180px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.pet_img{
+	width: 180px;
+	height: 180px;
+	background: url(../image/dog.jpg);
+	background-size: 180px 180px;
+	border-radius: 50%;
+}
+/*---END - PICTURE---*/
+
+/*---START - NAME_REGISTER---*/
+.name_register{
+	width: 100%;
+	height: 56px;
+	margin-top: 16px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.div2_register{
+	width: auto;
+	height: 56px;
+}
+
+.div2_register h1{
+	font-size: 2.5rem;
+	font-weight: normal;
+	color: black;
+}
+/*---END - NAME_REGISTER---*/
+
+/*------START - CODE REUSE------*/
+.general_register{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+.type_register{
+	width: 100%;
+	height: auto;
+	display: block;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+
+.type_register h6{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+	font-weight: normal;
+	color: rgb(118,118,118);
+}
+
+.type_register h3{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 1.75rem;
+	font-weight: normal;
+	color: rgb(171,87,195);
+	
+}
+/*------END - CODE REUSE------*/
+
+/*---START - OBS REGISTER---*/
+.obs_register{
+	width: 100%;
+	height: 153px;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	background-color: rgb(241,247,249);
+}
+
+.obs_box{
+	width: 570px;
+	height: 153px;	
+	border: 0;
+	box-sizing: border-box;
+	background-color: #fff;	
+}
+
+.obs_table{
+	width: 570px;
+	height: auto;
+	border-collapse: collapse;
+}
+
+.name_th{
+	width: 446px;
+	height: 41px;
+	text-align: left;
+	border: 1px solid #ccc;
+	padding-left: 12px;
+	font-weight: normal;
+	font-size: 1rem;
+}
+
+th, td{
+	border: 1px solid #ccc;
+}
+
+.obs{
+	width: 570px;
+	height: 34px;
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+	background-color: rgb(241,247,249);
+	
+}
+
+.date_th{
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+.nameType_td{
+	width: 446px;
+	height: 76px;
+	padding-left: 12px;
+	font-size: 1rem;
+}
+
+.date_td{
+	font-size: 1rem;
+}
+
+.date_td label{
+	display: flex;
+	justify-content: center;
+}
+
+.date_td i{
+	color: rgb(0,212,32);
+}
+
+.date_td h4{
+	display: flex;
+	line-height: 2.5;
+	justify-content: center;
+	font-weight: normal;
+} 
+/*---END - OBS REGISTER---*/
+
+/*---START - EDIT---*/
+.edit{
+	width: 100%;
+	height: 46px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	margin-top: 24px;
+}
+
+.btn_edit{
+	width: 119.19px;
+	height: 46px;
+	background-color: rgb(171,87,195);
+	color: #fff;
+	font-size: 1.25rem;
+	font-weight: normal;
+	cursor: pointer;
+	transition: .1s;
+	border-radius: 5px;
+	border: 0;
+}
+/*---END - EDIT---*/
+
+/*---START - QR_CODE---*/
+.qr_code{
+	width: 100%;
+	height: 105px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	margin-top: 50px;
+}
+
+.img_code{
+	width: 105px;
+	height: 105px;
+	box-sizing: border-box;
+	background-size: 105px 105px;
+	background: url(../image/qrcode.jpg) no-repeat;
+	background-color: #fff;
+	border-radius: 3px;
+}
+/*---END - QR_CODE---*/
+
+/*---START - BOTTOM_BOX*/
+.bottom_box{
+	width: 100%;
+	height: 61px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+
+.logo{
+	width: 500px;
+	height: 61px;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	border: 0;
+	border-radius: 5px;
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,211,252,1) 100%);
+}
+
+.logo h2{
+	font-size: 42px;
+	font-weight: bold;	
+}
+
+.developer{
+	width: 100%;
+	height: 20px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-weight: normal;
+	color: rgb(118,118,118);
+}
+/*---END - BOTTOM_BOX*/
+/*---END - CLASS AUXILIARES---*/
+
+
+/*---ANIMAÇÕES---*/
+@keyframes rotation{
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+.horario{
+	animation: rotation 3s linear infinite;
+}
+
+.btn_register:hover{
+	color: #fff;
+	background-color: rgb(108,117,125);
+}
+
+.btn_edit:hover{
+	background-color: rgb(186,77,227);
+}
+/*---FIM - ANIMAÇÕES---*/
+
+@media only screen and (max-width: 360px){
+	.name_th{
+		width: 230px;
+		height: 41px;
+		text-align: left;
+		border: 1px solid #ccc;
+		padding-left: 12px;
+		font-weight: normal;
+		font-size: 1rem;
+	}
+
+	.nameType_td{
+		width: 230px;
+		height: 76px;
+		padding-left: 12px;
+		font-size: 1rem;
+	}
+
+	.obs_box{
+		margin-left: 10px;
+		margin-right: 10px;	
+	}
+
+	.obs{
+		margin-left: 10px;
+		margin-right: 10px;	
+	}
+
+	.obs_table{
+		width: 330px;
+	}
+
+	.logo h2{
+		font-size: 25px;
+	}
+
+	.logo{
+		margin-left: 25px;
+		margin-right: 25px;
+	}	
+
+	.developer{
+		width: 360px;
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.name_th{
+		width: 250px;
+		height: 41px;
+		text-align: left;
+		border: 1px solid #ccc;
+		padding-left: 12px;
+		font-weight: normal;
+		font-size: 1rem;
+	}
+
+	.nameType_td{
+		width: 250px;
+		height: 76px;
+		padding-left: 12px;
+		font-size: 1rem;
+	}
+
+	.obs_box{
+		width: 100%;
+		height: 153px;	
+	}
+
+	.obs{
+		width: 100%;
+	}
+
+	.obs_table{
+		width: 100%;
+	}
+
+	.logo h2{
+		font-size: 25px;
+	}
+
+	.logo{
+		margin-left: 25px;
+		margin-right: 25px;
+	}	
+
+	.developer{
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.name_th{
+		width: 370px;
+		height: 41px;
+		text-align: left;
+		border: 1px solid #ccc;
+		padding-left: 12px;
+		font-weight: normal;
+		font-size: 1rem;
+	}
+
+	.nameType_td{
+		width: 370px;
+		height: 76px;
+		padding-left: 12px;
+		font-size: 1rem;
+	}
+
+	.obs_box{
+		width: 90%;
+		height: 153px;	
+	}
+
+	.obs{
+		width: 100%;
+	}
+
+	.obs_table{
+		width: 100%;
+	}
+
+	.logo{
+		width: 400px;
+	}
+}
